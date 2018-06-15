@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex Layout</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            display: flex;
+            width: 1500px;
+            background: red;
+            justify-content: space-between;
+        }
+
+        li {
+            width: 200px;
+            background: #efefef;
+            border: #333 1px solid;
+            list-style: none;
+        }
+
+        #wrap {
+            display: flex;
+            width: 1000px;
+            background: yellow;
+            margin-top: 50px;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .A {
+            width: 200px;
+            background: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FLEXによるレイアウト</h1>
+    <ul>
+        <li>nav</li>
+        <li>nav</li>
+        <li>nav</li>
+        <li>nav</li>
+        <li>nav</li>
+    </ul>
+    <div id="wrap">
+        <div class="A">走行中の東海道新幹線内で男女３人が殺傷された事件で、殺人未遂容疑で現行犯逮捕された無職小島一朗容疑者（２２）＝愛知県岡崎市＝の実母が１１日、報道機関にコメントを発表した。コメントの概要は次の通り。</div>
+        <div class="A">走行中の東海道新幹線内で男女３人が殺傷された事件で...</div>
+        <div class="A">走行中の東海道新幹線内で男女３人が殺傷された事件で、無職小島一朗容疑者（２２）の実母が１１日、報道機関にコメントを発表した。コメントの概要は次の通り。</div>
+        <div class="A">このたびはご遺族の方、また被害にあわれた方々に大変なことをしてしまい、また関係の皆様に多大なご迷惑をおかけし、心から深くお詫び申し上げます</div>
+    </div>
+
+</body>
+
+</html>
