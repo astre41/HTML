@@ -30,10 +30,12 @@ h1 {
 }
 
 h2 {
-    width: 325px;
-    font-size: 18px;
-    background: linear-gradient(transparent 40%, #a0d8ef 90%);
-
+    width: 250px;
+    font-size: 20px;
+    background: #bd0018;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
 }
 
 nav ul li a {
@@ -96,7 +98,7 @@ nav a:hover {
 nav a:active {
     text-decoration: none;
     background: #fff;
-    color: #89c3ed;
+    color: #000;
 }
 
 
@@ -112,6 +114,7 @@ article {
     height: 250px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 14px;
 }
 
 p {
@@ -177,10 +180,6 @@ footer {
 
 hr {
     border: #bbb 0.5px dotted;
-}
-
-#min {
-    font-size: 12px;
 }
 
 a:hover img {
